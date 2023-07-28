@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       ),
       home: BlocProvider(
         create: (context) =>DictionaryCubit(WordRepository()),
-        child: MyHomePage(),
+        child: const HomePage(),
       ),
     );
   }

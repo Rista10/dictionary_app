@@ -1,7 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:dictionary/data/model/word_response.dart';
 import 'package:dictionary/data/repo/word_repo.dart';
-import 'package:equatable/equatable.dart';
 import 'package:flutter/widgets.dart';
 
 part 'dictionary_state.dart';
